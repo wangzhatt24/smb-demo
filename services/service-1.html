@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- freshsales suite tracking code -->
+<script src='//fw-cdn.com/13212284/5368583.js' chat='true'>
+</script>
+
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- main style -->
-  <link rel="stylesheet" href="./assets/style.css">
+  <link rel="stylesheet" href="/assets/style.css">
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -14,12 +19,12 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="./assets/skeleton/css/normalize.css">
-  <link rel="stylesheet" href="./assets/skeleton/css/skeleton.css">
+  <link rel="stylesheet" href="/assets/skeleton/css/normalize.css">
+  <link rel="stylesheet" href="/assets/skeleton/css/skeleton.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="./assets/favicon.png">
+  <link rel="icon" type="image/png" href="/assets/favicon.png">
 
 
   <title>SERVICE 1 - SMB DEMO</title>
@@ -98,51 +103,13 @@
   </div>
 
 
-  <script>
-    function handleAfterDomLoaded() {
-      FM.associateVisitor("david.thompson@sample.com");
-      // Ghi lại thời gian truy cập
-      const enterTime = Date.now();
 
-      FM.trackCustomEvent("Nav To Homepage", {
-        timestamp: new Date().toISOString(),
-        is_mobile: /Mobi/.test(navigator.userAgent)
-      });
-
-      alert('done');
-    }
-
-    let enterTime; // Khai báo ở phạm vi toàn cục
-
-    document.addEventListener('DOMContentLoaded', () => {
-      enterTime = Date.now(); // Gán giá trị khi DOM đã sẵn sàng
-
-      FM.associateVisitor("david.thompson@sample.com");
-
-      FM.trackCustomEvent("Enter Homepage", {
-        timestamp: new Date().toISOString(),
-        is_mobile: /Mobi/.test(navigator.userAgent)
-      });
-    });
-
-    window.addEventListener("beforeunload", () => {
-      const leaveTime = Date.now();
-      const durationInSeconds = Math.round((leaveTime - enterTime) / 1000);
-
-      FM.trackCustomEvent("Leave Homepage", {
-        duration_seconds: durationInSeconds
-      });
-    });
-  </script>
 
 
 
   <!-- main script -->
   <script src="/assets/script.js"></script>
 
-  <!-- Freshsales suite crm tracking code -->
-  <script src='//fw-cdn.com/7981542/3289484.js' chat='true'>
-  </script>
 
 </body>
 

@@ -119,30 +119,21 @@
 
 
   <script>
-    function handleAfterDomLoaded() {
-      FM.associateVisitor("david.thompson@sample.com");
-      // Ghi lại thời gian truy cập
-      const enterTime = Date.now();
+    const visiterEmail = String("quangnhatpr9@gmail.com");
+    let enterTime; 
 
-      FM.trackCustomEvent("Nav To Homepage", {
-        timestamp: new Date().toISOString(),
-        is_mobile: /Mobi/.test(navigator.userAgent)
-      });
-
-      alert('done');
-    }
-
-    let enterTime; // Khai báo ở phạm vi toàn cục
 
     document.addEventListener('DOMContentLoaded', () => {
-      enterTime = Date.now(); // Gán giá trị khi DOM đã sẵn sàng
+      enterTime = Date.now(); 
 
-      FM.associateVisitor("david.thompson@sample.com");
+      FM.associateVisitor(visiterEmail);
 
       FM.trackCustomEvent("Enter Homepage", {
         timestamp: new Date().toISOString(),
         is_mobile: /Mobi/.test(navigator.userAgent)
       });
+
+      console.log('Enter homepage');
     });
 
     window.addEventListener("beforeunload", () => {
