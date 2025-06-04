@@ -64,7 +64,7 @@
         </thead>
         <tbody>
           <tr>
-            <td><a style="text-decoration: none;" href="/home">HOME</a></td>
+            <td><a style="text-decoration: none;" href="/">HOME</a></td>
             <td><a style="text-decoration: none;" href="/services">SERVICES</a></td>
             <td><a style="text-decoration: none;" href="/pages">PAGES</a></td>
             <td><a style="text-decoration: none;" href="/blog">BLOG</a></td>
@@ -119,32 +119,32 @@
 
 
   <script>
-    const visiterEmail = String("quangnhatpr9@gmail.com");
-    let enterTime; 
+  //   const visiterEmail = String("quangnhatpr9@gmail.com");
+  //   let enterTime; 
 
 
-    document.addEventListener('DOMContentLoaded', () => {
-      enterTime = Date.now(); 
+  //   document.addEventListener('DOMContentLoaded', () => {
+  //     enterTime = Date.now(); 
 
-      FM.associateVisitor(visiterEmail);
+  //     // FM.associateVisitor(visiterEmail);
 
-      FM.trackCustomEvent("Enter Homepage", {
-        timestamp: new Date().toISOString(),
-        is_mobile: /Mobi/.test(navigator.userAgent)
-      });
+  //     FM.trackCustomEvent("Enter Homepage", {
+  //       timestamp: new Date().toISOString(),
+  //       is_mobile: /Mobi/.test(navigator.userAgent)
+  //     });
 
-      console.log('Enter homepage');
-    });
+  //     console.log('Enter homepage');
+  //   });
 
-    window.addEventListener("beforeunload", () => {
-      const leaveTime = Date.now();
-      const durationInSeconds = Math.round((leaveTime - enterTime) / 1000);
+  //   window.addEventListener("beforeunload", () => {
+  //     const leaveTime = Date.now();
+  //     const durationInSeconds = Math.round((leaveTime - enterTime) / 1000);
 
-      FM.trackCustomEvent("Leave Homepage", {
-        duration_seconds: durationInSeconds
-      });
-    });
-  </script>
+  //     FM.trackCustomEvent("Leave Homepage", {
+  //       duration_seconds: durationInSeconds
+  //     });
+  //   });
+  // </script>
 
 
 
