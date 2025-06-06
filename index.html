@@ -22,10 +22,12 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="./assets/favicon.png">
 
+  <!-- Fs tracking code and web chat widget -->
+  <script src='//fw-cdn.com/13282695/5406409.js' chat='true'>
+  </script>
 
   <title>SMB DEMO</title>
 
-  <script src='//fw-cdn.com/13212284/5368583.js' chat='true'></script>
 </head>
 
 <!-- Google tag (gtag.js) -->
@@ -104,11 +106,6 @@
         </div>
       </div>
 
-      <!-- Freshsales suite form -->
-      <div class="container">
-        <script src='https://smb1-849630705956618408.myfreshworks.com/crm/sales/web_forms/0e85080ceedb0da6306dba4c6737f3797c18cc98f97836c9a6051c9902b03846/form.js' crossorigin='anonymous' id='fs_0e85080ceedb0da6306dba4c6737f3797c18cc98f97836c9a6051c9902b03846'></script>
-      </div>
-
     </main>
 
     <footer></footer>
@@ -117,34 +114,34 @@
   </div>
 
 
-  <script>
-  //   const visiterEmail = String("quangnhatpr9@gmail.com");
-  //   let enterTime; 
+  <div class="container">
+    <!-- The above form looks like this -->
 
-
-  //   document.addEventListener('DOMContentLoaded', () => {
-  //     enterTime = Date.now(); 
-
-  //     // FM.associateVisitor(visiterEmail);
-
-  //     FM.trackCustomEvent("Enter Homepage", {
-  //       timestamp: new Date().toISOString(),
-  //       is_mobile: /Mobi/.test(navigator.userAgent)
-  //     });
-
-  //     console.log('Enter homepage');
-  //   });
-
-  //   window.addEventListener("beforeunload", () => {
-  //     const leaveTime = Date.now();
-  //     const durationInSeconds = Math.round((leaveTime - enterTime) / 1000);
-
-  //     FM.trackCustomEvent("Leave Homepage", {
-  //       duration_seconds: durationInSeconds
-  //     });
-  //   });
-  // </script>
-
+    <h1>Contact</h1>
+    <form>
+      <div class="row">
+        <div class="six columns">
+          <label for="exampleEmailInput">Your email</label>
+          <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+        </div>
+        <div class="six columns">
+          <label for="exampleRecipientInput">Reason for contacting</label>
+          <select class="u-full-width" id="exampleRecipientInput">
+            <option value="Option 1">Questions</option>
+            <option value="Option 2">Admiration</option>
+            <option value="Option 3">Can I get your number?</option>
+          </select>
+        </div>
+      </div>
+      <label for="exampleMessage">Message</label>
+      <textarea class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"></textarea>
+      <label class="example-send-yourself-copy">
+        <input type="checkbox">
+        <span class="label-body">Send a copy to yourself</span>
+      </label>
+      <input class="button-primary" type="submit" value="Submit">
+    </form>
+  </div>
 
 
   <!-- main script -->
