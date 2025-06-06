@@ -1,1 +1,0 @@
-import{f as a,a as r}from"../chunks/C_yToJBG.js";import"../chunks/DXhBebCv.js";import{$ as m}from"../chunks/BwaIo8ak.js";import{h as p}from"../chunks/B6JaXUt9.js";var e=a("<h1>About page</h1>");function c(o){var t=e();p(h=>{m.title="About SMB DEMO"}),r(o,t)}export{c as component};
