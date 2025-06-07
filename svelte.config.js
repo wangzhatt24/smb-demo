@@ -5,7 +5,7 @@ const config = {
   preprocess: vitePreprocess(),
   kit: {
     adapter: adapter({
-      fallback: "index.html",   // 👈 Đảm bảo route client hoạt động khi reload
+      fallback: "404.html",   // 👈 Đảm bảo route client hoạt động khi reload
       pages: "build",
       assets: "build",
       precompress: false,
