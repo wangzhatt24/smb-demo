@@ -3,73 +3,56 @@
 </script>
 
 <svelte:head>
-  <title>SMB DEMO | Blog page</title>
-  <meta name="description" content="SMB+ cung cấp dịch vụ phát triển phần mềm chuyên nghiệp. Tìm hiểu quy trình và cách SMB+ giúp bạn hiện thực hóa ý tưởng phần mềm." />
+  <title>SMB+ | Phần mềm theo yêu cầu: Giải pháp tối ưu cho doanh nghiệp hiện đại</title>
+  <meta name="description" content="Khám phá cách SMB+ thiết kế và phát triển phần mềm theo yêu cầu, giúp doanh nghiệp tối ưu hoá quy trình, giảm chi phí và nâng cao hiệu suất." />
 </svelte:head>
 
 <main class="max-w-4xl mx-auto px-4 py-8 space-y-6 text-justify">
-  <h1 class="text-3xl font-bold text-center">SMB+ cung cấp dịch vụ phát triển phần mềm</h1>
+  <h1 class="text-3xl font-bold text-center">Phần mềm theo yêu cầu: Giải pháp tối ưu cho doanh nghiệp hiện đại</h1>
 
   <p>
-    Dịch vụ Phát triển Phần mềm từ lâu đã trở thành sự lựa chọn phổ biến của nhiều công ty vì chúng không chỉ tiết kiệm thời gian cho một dự án hoặc nhiệm vụ cụ thể mà còn cho phép các công ty tiếp cận nhiều chuyên gia với chi phí hợp lý hơn so với phát triển nội bộ.
-    Và trong thế giới mà hầu hết mọi người đều phải làm việc từ xa tại nhà, Dịch vụ Phát triển Phần mềm chưa bao giờ hấp dẫn hơn thế.
+    Trong thời đại chuyển đổi số, các doanh nghiệp không thể chỉ dựa vào phần mềm đóng gói sẵn nếu muốn tối ưu hiệu suất và nâng cao khả năng cạnh tranh. Phần mềm theo yêu cầu (custom software) đang dần trở thành lựa chọn chiến lược cho nhiều doanh nghiệp tại Việt Nam, đặc biệt là các công ty vừa và nhỏ (SMB).
   </p>
 
-  <h2 class="text-2xl font-semibold">1. Phát triển phần mềm là gì?</h2>
+  <h2 class="text-2xl font-semibold">1. Phần mềm theo yêu cầu là gì?</h2>
   <p>
-    “Phát triển phần mềm là quá trình hình thành, chỉ định, thiết kế, lập trình, lập tài liệu, thử nghiệm và sửa lỗi liên quan đến việc tạo và duy trì các ứng dụng, khuôn khổ hoặc các thành phần phần mềm khác...”
-  </p>
-  <p>
-    Hiểu theo cách đơn giản thì dịch vụ phát triển phần mềm là một quá trình phức tạp để thiết kế một ứng dụng hoặc phần mềm nhằm đáp ứng một mục tiêu, mục tiêu hoặc quy trình cụ thể...
+    Là phần mềm được thiết kế riêng cho từng doanh nghiệp để giải quyết các vấn đề đặc thù mà phần mềm đại trà không xử lý được. Ví dụ: hệ thống quản lý sản xuất nội bộ, phần mềm ERP tùy chỉnh, CRM theo quy trình riêng, hoặc tích hợp với phần mềm hiện có.
   </p>
 
-  <h2 class="text-2xl font-semibold">2. Quy trình phát triển phần mềm</h2>
-  <p>Phát triển phần mềm là một công việc hấp dẫn nhưng rất phức tạp, thường phải trải qua rất nhiều quy trình...</p>
-
-  <h3 class="text-xl font-bold">2.1 Phân tích và lập kế hoạch</h3>
+  <h2 class="text-2xl font-semibold">2. Lợi ích khi dùng phần mềm theo yêu cầu</h2>
   <ul class="list-disc list-inside">
-    <li>Sự liên kết: Làm thế nào để dự án kết nối với mục tiêu công ty?</li>
-    <li>Sự sẵn có và phân bổ nguồn lực</li>
-    <li>Lập kế hoạch dự án</li>
-    <li>Ước tính chi phí</li>
+    <li><strong>Tối ưu quy trình riêng:</strong> Phần mềm được xây dựng xoay quanh cách doanh nghiệp bạn hoạt động.</li>
+    <li><strong>Hiệu suất và bảo mật cao hơn:</strong> Do được kiểm soát từ kiến trúc đến triển khai.</li>
+    <li><strong>Dễ mở rộng:</strong> Phù hợp với định hướng dài hạn và khả năng tích hợp hệ thống.</li>
+    <li><strong>Không phụ thuộc nhà cung cấp:</strong> Toàn quyền làm chủ mã nguồn và dữ liệu.</li>
   </ul>
 
-  <h3 class="text-xl font-bold">2.2 Yêu cầu</h3>
-  <p>Đặt các câu hỏi như:</p>
-  <ul class="list-disc list-inside">
-    <li>Vấn đề này giải quyết điều gì?</li>
-    <li>Ai sẽ sử dụng nó và tại sao?</li>
-    <li>Cần tích hợp API nào?</li>
-    <li>Bảo mật / quyền riêng tư được xử lý ra sao?</li>
-  </ul>
+  <h2 class="text-2xl font-semibold">3. Tại sao chọn SMB+?</h2>
+  <p>
+    Với hơn 10 năm kinh nghiệm phát triển phần mềm cho doanh nghiệp trong và ngoài nước, SMB+ không chỉ là một đơn vị phát triển mà còn là <em>đối tác công nghệ đáng tin cậy</em>. Chúng tôi đồng hành cùng bạn từ giai đoạn lên ý tưởng đến khi phần mềm vận hành ổn định:
+  </p>
 
-  <h3 class="text-xl font-bold">2.3 Thiết kế và tạo mẫu</h3>
-  <p>Giai đoạn tạo wireframe hoặc nguyên mẫu phần mềm.</p>
+  <h3 class="text-xl font-bold">3.1 Tư vấn & phân tích nghiệp vụ</h3>
+  <p>Đội ngũ chuyên gia của SMB+ giúp bạn làm rõ quy trình, xác định mục tiêu phần mềm và giải pháp phù hợp.</p>
+
+  <h3 class="text-xl font-bold">3.2 Thiết kế giao diện UX/UI chuyên nghiệp</h3>
+  <p>Tập trung vào trải nghiệm người dùng giúp phần mềm dễ dùng và hiệu quả hơn.</p>
+
+  <h3 class="text-xl font-bold">3.3 Phát triển và kiểm thử chặt chẽ</h3>
+  <p>Ứng dụng mô hình Agile và CI/CD để đảm bảo tốc độ, chất lượng và tính linh hoạt trong quá trình phát triển.</p>
 
   <blockquote class="italic border-l-4 border-blue-500 pl-4">
-    Katalon – phát triển bởi SMB+
+    Ví dụ thực tế: Hệ thống quản lý kho và sản xuất được SMB+ phát triển riêng cho một doanh nghiệp FMCG tại TP.HCM, giúp tiết kiệm 30% chi phí vận hành sau 6 tháng.
   </blockquote>
 
-  <h3 class="text-xl font-bold">2.4 Phát triển và triển khai phần mềm</h3>
-  <p>Giai đoạn lập trình, viết mã, kiểm thử sơ bộ và liên lạc chặt chẽ với nhóm phát triển.</p>
+  <h2 class="text-2xl font-semibold">4. Kết luận</h2>
+  <p>
+    Đầu tư vào phần mềm theo yêu cầu không chỉ là chi phí công nghệ mà là chiến lược tăng trưởng. Doanh nghiệp của bạn sẽ sở hữu công cụ "may đo" để cạnh tranh hiệu quả và phát triển bền vững.
+  </p>
 
-  <h3 class="text-xl font-bold">2.5 Thử nghiệm</h3>
-  <p>Phần mềm được gửi cho nhóm kiểm thử để đánh giá chất lượng, đảm bảo không còn lỗi.</p>
-
-  <h3 class="text-xl font-bold">2.6 Triển khai</h3>
-  <blockquote class="italic border-l-4 border-green-500 pl-4">
-    Avcochem – 1 dự án được phát triển bởi SMB+
-  </blockquote>
-  <p>Đưa mã vào môi trường sản xuất và chính thức phát hành phần mềm.</p>
-
-  <h3 class="text-xl font-bold">2.7 Vận hành và Bảo trì</h3>
-  <p>Sau khi phát hành, phần mềm tiếp tục được duy trì, sửa lỗi, nâng cấp, và hỗ trợ người dùng.</p>
-
-  <hr class="my-8" />
-
-  <section class="bg-blue-50 p-4 rounded-xl text-center">
-    <h2 class="text-xl font-semibold">Bạn đang tìm kiếm Đối tác công nghệ đáng tin cậy?</h2>
-    <p class="mt-2">Liên hệ với chúng tôi để được tư vấn miễn phí về Dịch vụ phát triển phần mềm.</p>
-    <p>Các nhà phát triển của SMB+ sẽ đồng hành cùng bạn từ khâu ý tưởng đến khi hoàn thiện.</p>
+  <section class="bg-yellow-50 p-4 rounded-xl text-center">
+    <h2 class="text-xl font-semibold">Bạn đang cần phần mềm phù hợp quy trình nội bộ?</h2>
+    <p class="mt-2">SMB+ sẵn sàng tư vấn giải pháp phần mềm riêng biệt cho doanh nghiệp bạn. Chúng tôi đồng hành từ A-Z.</p>
+    <p class="font-semibold mt-2">📞 Liên hệ ngay: <a href="https://smbplus.vn/lien-he" class="text-blue-600 underline">smbplus.vn/lien-he</a></p>
   </section>
 </main>

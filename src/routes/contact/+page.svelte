@@ -20,7 +20,7 @@
 </svelte:head>
 
 <main class="max-w-3xl mx-auto px-4 py-12 space-y-6">
-  <h1 class="text-3xl font-bold text-center mb-6">Liên hệ</h1>
+  <h1 id="book-demo" class="text-3xl font-bold text-center mb-6">Liên hệ</h1>
 
   <section class="space-y-4 text-justify">
     <p class="text-lg font-medium">Bạn cần hỗ trợ?</p>
