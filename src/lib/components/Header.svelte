@@ -18,7 +18,7 @@
         <a href="/" class="text-gray-700 hover:text-blue-500">Home</a>
         <a href="/about" class="text-gray-700 hover:text-blue-500">About</a>
         <a href="/blog" class="text-gray-700 hover:text-blue-500">Blog</a>
-        <a href="/contact" class="text-gray-700 hover:text-blue-500">Contact</a>
+        <a href="/news" class="text-gray-700 hover:text-blue-500">News</a>
       </nav>
 
       <!-- Mobile menu button -->
@@ -40,7 +40,7 @@
         <a href="/" class="block text-gray-700 hover:text-blue-500">Home</a>
         <a href="/about" class="block text-gray-700 hover:text-blue-500">About</a>
         <a href="/blog" class="block text-gray-700 hover:text-blue-500">Blog</a>
-        <a href="/contact" class="block text-gray-700 hover:text-blue-500">Contact</a>
+        <a href="/news" class="block text-gray-700 hover:text-blue-500">News</a>
       </nav>
     </div>
   {/if}

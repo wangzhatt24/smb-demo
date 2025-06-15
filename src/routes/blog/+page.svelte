@@ -53,6 +53,6 @@
   <section class="bg-yellow-50 p-4 rounded-xl text-center">
     <h2 class="text-xl font-semibold">Bạn đang cần phần mềm phù hợp quy trình nội bộ?</h2>
     <p class="mt-2">SMB+ sẵn sàng tư vấn giải pháp phần mềm riêng biệt cho doanh nghiệp bạn. Chúng tôi đồng hành từ A-Z.</p>
-    <p class="font-semibold mt-2">📞 Liên hệ ngay: <a href="https://smbplus.vn/lien-he" class="text-blue-600 underline">smbplus.vn/lien-he</a></p>
+    <p class="font-semibold mt-2">📞 Liên hệ ngay: <a href="https://demo.smbplus.net/#contact-form" class="text-blue-600 underline">demo.smbplus.net/#contact-form</a></p>
   </section>
 </main>
