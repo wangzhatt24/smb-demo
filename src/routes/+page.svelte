@@ -69,9 +69,9 @@
         <label for="email" class="block text-sm font-medium text-gray-700 mb-1">
           Email
         </label>
+
+          <!-- name="contact[email]" -->
         <input
-          id="email"
-          name="contact[email]"
           type="email"
           placeholder="E.g. john.smith@acmecorp.com"
           class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -84,7 +84,6 @@
         </label>
         <input
           id="first_name"
-          name="contact[first_name]"
           type="text"
           placeholder="E.g. John"
           class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -97,7 +96,6 @@
         </label>
         <input
           id="last_name"
-          name="contact[last_name]"
           type="text"
           placeholder="E.g. Smith"
           class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
