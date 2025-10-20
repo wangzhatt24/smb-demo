@@ -8,14 +8,14 @@
 
   afterNavigate(() => {
     const existing = document.querySelector(
-      'script[src*="fw-cdn.com/13212284/5368583.js"]'
+      'script[src*="in.fw-cdn.com/32598945/1442336.js"]'
     );
     if (existing) {
       existing.remove();
     }
 
     const script = document.createElement("script");
-    script.src = "//fw-cdn.com/13212284/5368583.js";
+    script.src = "//in.fw-cdn.com/32598945/1442336.js";
     script.setAttribute("chat", "true");
     script.async = true;
     document.body.appendChild(script);
