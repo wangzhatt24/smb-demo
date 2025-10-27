@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-  <title>CosMedConnect – Cosmetic Tourism với trải nghiệm chăm sóc toàn diện</title>
+  <title>CosMedConnect - Cosmetic Tourism với trải nghiệm chăm sóc toàn diện</title>
   <meta name="description" content="CosMedConnect kết nối khách hàng Úc với bác sĩ thẩm mỹ hàng đầu, bệnh viện chất lượng và dịch vụ phục hồi chăm sóc sau phẫu thuật tại Việt Nam." />
 </svelte:head>
 

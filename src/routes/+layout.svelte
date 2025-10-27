@@ -15,14 +15,16 @@
     }
 
     const script = document.createElement("script");
-    script.src = "//in.fw-cdn.com/32598945/1442336.js";
+    script.src = "//fw-cdn.com/10741366/3537314.js";
     script.setAttribute("chat", "true");
     script.async = true;
     document.body.appendChild(script);
   });
 </script>
 
-<svelte:head></svelte:head>
+<svelte:head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</svelte:head>
 
 <Header />
 
