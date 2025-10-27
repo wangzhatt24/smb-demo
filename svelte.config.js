@@ -6,8 +6,8 @@ const config = {
   kit: {
     adapter: adapter({
       fallback: "404.html",   // 👈 Đảm bảo route client hoạt động khi reload
-      pages: "docs",
-      assets: "docs",
+      pages: "build",
+      assets: "build",
       precompress: false,
       strict: true,
     }),
