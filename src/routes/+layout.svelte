@@ -7,18 +7,22 @@
   let { children } = $props();
 
   afterNavigate(() => {
-    const existing = document.querySelector(
-      'script[src*="in.fw-cdn.com/32598945/1442336.js"]'
-    );
-    if (existing) {
-      existing.remove();
-    }
+    // const existing = document.querySelector(
+    //   'script[src*="in.fw-cdn.com/32598945/1442336.js"]'
+    // );
+    // if (existing) {
+    //   existing.remove();
+    // }
 
+
+    // Chat widget
     const script = document.createElement("script");
     script.src = "//fw-cdn.com/10741366/3537314.js";
     script.setAttribute("chat", "true");
     script.async = true;
     document.body.appendChild(script);
+
+    
   });
 </script>
 
